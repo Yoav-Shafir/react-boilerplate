@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yoav Shafir",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Yoav-Shafir/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/Yoav-Shafir/react-boilerplate#readme"
+  "homepage": "https://github.com/Yoav-Shafir/react-boilerplate#readme",
+  "dependencies": {
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
+  }
 }
